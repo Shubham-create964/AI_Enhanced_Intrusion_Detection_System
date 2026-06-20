@@ -1,0 +1,8 @@
+{
+  "dataset_name": "dataset",
+  "run_id": "run",
+  "model_version": "rf-20260611T04445",
+  "model_path": "c:\\New folder\\backend\\data\\processed_v2\\dataset\\run\\artifacts\\model\\model.joblib",
+  "preprocessor_path": "c:\\New folder\\backend\\data\\processed_v2\\dataset\\run\\artifacts\\preprocessors.joblib",
+  "trained_at": "2026-06-11T04:44:53.653638+00:00"
+}

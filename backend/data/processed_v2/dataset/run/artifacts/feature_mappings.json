@@ -1,0 +1,139 @@
+{
+  "categorical": {
+    "protocol": [
+      "TCP",
+      "UDP"
+    ],
+    "tcp_flags": [
+      "ACK",
+      "FIN",
+      "PSH",
+      "RST",
+      "SYN"
+    ]
+  },
+  "numerical": {
+    "columns": [
+      "source_port",
+      "dest_port",
+      "packet_length",
+      "duration",
+      "window_size",
+      "urg_flag",
+      "ack_flag",
+      "psh_flag",
+      "rst_flag",
+      "syn_flag",
+      "fin_flag",
+      "flow_bytes_sent",
+      "flow_packets_sent",
+      "flow_bytes_received",
+      "flow_packets_received",
+      "fwd_iat_mean",
+      "fwd_iat_std",
+      "bwd_iat_mean",
+      "bwd_iat_std"
+    ],
+    "scaler": {
+      "mean": [
+        54335.5,
+        1215.8,
+        727.4666666666667,
+        1.8883333333333332,
+        46966.933333333334,
+        0.0,
+        0.7,
+        0.23333333333333334,
+        0.03333333333333333,
+        0.26666666666666666,
+        0.1,
+        186240.0,
+        465.6,
+        1154.1333333333334,
+        18.033333333333335,
+        0.006633333333333334,
+        0.003110000000000001,
+        0.003566666666666667,
+        0.0017500000000000003
+      ],
+      "scale": [
+        8.65544144839919,
+        2056.0139817942227,
+        811.309219033587,
+        1.299851487243404,
+        20608.365717079287,
+        1.0,
+        0.45825756949558394,
+        0.4229525846816506,
+        0.1795054935711501,
+        0.4422166387140533,
+        0.3,
+        176484.9561105233,
+        441.21239027630827,
+        1370.3059447518363,
+        21.41103038674744,
+        0.005607930891950157,
+        0.0026900247830332963,
+        0.0027133415233291627,
+        0.0013300375934536587
+      ]
+    }
+  },
+  "selected_feature_names": [
+    "duration",
+    "window_size",
+    "psh_flag",
+    "syn_flag",
+    "flow_bytes_sent",
+    "flow_packets_sent",
+    "flow_bytes_received",
+    "fwd_iat_mean",
+    "protocol_TCP",
+    "tcp_flags_SYN"
+  ],
+  "feature_selection": {
+    "enabled": true,
+    "k_requested": 10,
+    "k_selected": 10,
+    "selected_feature_names": [
+      "duration",
+      "window_size",
+      "psh_flag",
+      "syn_flag",
+      "flow_bytes_sent",
+      "flow_packets_sent",
+      "flow_bytes_received",
+      "fwd_iat_mean",
+      "protocol_TCP",
+      "tcp_flags_SYN"
+    ],
+    "scores": {
+      "source_port": 0.0,
+      "dest_port": 0.6421328750896247,
+      "packet_length": 0.5125686892754386,
+      "duration": 0.8848883140950639,
+      "window_size": 1.1841970740273937,
+      "urg_flag": 0.0,
+      "ack_flag": 0.5415737850070461,
+      "psh_flag": 1.0032293907096297,
+      "rst_flag": 0.4276987978457034,
+      "syn_flag": 0.7864891046088978,
+      "fin_flag": 0.3860806320608705,
+      "flow_bytes_sent": 0.8559994252061747,
+      "flow_packets_sent": 0.8317401659469157,
+      "flow_bytes_received": 0.7928193377995765,
+      "flow_packets_received": 0.7760071684874075,
+      "fwd_iat_mean": 0.8433481413048909,
+      "fwd_iat_std": 0.7172953515021008,
+      "bwd_iat_mean": 0.6400338167405666,
+      "bwd_iat_std": 0.7068712385779883,
+      "protocol_TCP": 0.7820523203865211,
+      "protocol_UDP": 0.14296727169464996,
+      "tcp_flags_ACK": 0.4603804413137018,
+      "tcp_flags_FIN": 0.0,
+      "tcp_flags_PSH": 0.40181921319651104,
+      "tcp_flags_RST": 0.09185239528565581,
+      "tcp_flags_SYN": 0.9037161796494406
+    }
+  }
+}

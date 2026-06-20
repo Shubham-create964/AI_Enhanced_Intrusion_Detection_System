@@ -1,0 +1,16 @@
+{
+  "label_column": "attack_type",
+  "feature_names_out": [
+    "duration",
+    "window_size",
+    "psh_flag",
+    "syn_flag",
+    "flow_bytes_sent",
+    "flow_packets_sent",
+    "flow_bytes_received",
+    "fwd_iat_mean",
+    "protocol_TCP",
+    "tcp_flags_SYN"
+  ],
+  "num_features": 10
+}

@@ -1,0 +1,80 @@
+{
+  "model_family": "RandomForestClassifier",
+  "model_version": "rf-20260611T04410",
+  "run_id": "run",
+  "trained_at": "2026-06-11T04:41:02.820159+00:00",
+  "config": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "label_column": "attack_type",
+  "classes_raw": [
+    "DoS",
+    "Normal",
+    "Probe"
+  ],
+  "val_metrics": {
+    "accuracy": 0.6666666666666666,
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5555555555555555,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "model_selection": {
+    "selected_by": "val.f1_score_weighted",
+    "val_f1_score_weighted": 0.5555555555555555
+  },
+  "test_label_encoding": {
+    "encoded_classes": [
+      0,
+      1,
+      2
+    ],
+    "decoded_classes": [
+      "DoS",
+      "Normal",
+      "Probe"
+    ]
+  }
+}
